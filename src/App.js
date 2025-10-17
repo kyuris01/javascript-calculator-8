@@ -4,7 +4,6 @@ import stringDevider from "./StringDevider.js";
 
 class App {
   async run() {
-    Console.print("프로그램 시작...");
     const input = await inputReader();
 
     const regex = /^\/\/.+\\n$/; // 커스텀 구분자 설정 판별 정규표현식
