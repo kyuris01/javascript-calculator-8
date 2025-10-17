@@ -13,6 +13,7 @@ const stringDevider = (string, delimiter) => {
   const inputArray = string.split(regExp);
   Console.print(inputArray);
   const sum = inputArray.reduce((acc, cur) => {
+    if (!Number(cur)) throw new Error("[ERROR] 잘못된 사용자 입력입니다");
     return acc + Number(cur);
   }, 0);
   Console.print(`결과: ${sum}`);
