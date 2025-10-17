@@ -20,7 +20,4 @@ class App {
   }
 }
 
-let app = new App();
-app.run();
-
 export default App;
