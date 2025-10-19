@@ -1,6 +1,7 @@
 import inputReader from "./InputReader.js";
 import stringDevider from "./StringDevider.js";
 import adder from "./Adder.js";
+import { Console } from "@woowacourse/mission-utils";
 
 class App {
   async run() {
