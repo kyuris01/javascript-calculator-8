@@ -12,3 +12,5 @@ const adder = (inputArray) => {
 
   return sum;
 };
+
+export default adder;
