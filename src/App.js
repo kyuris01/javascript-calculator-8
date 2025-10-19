@@ -1,4 +1,3 @@
-import { Console } from "@woowacourse/mission-utils";
 import inputReader from "./InputReader.js";
 import stringDevider from "./StringDevider.js";
 
